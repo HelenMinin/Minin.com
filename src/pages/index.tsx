@@ -12,7 +12,7 @@ export default function Home() {
         <Image alt="Avatar" src={avatarImg} objectFit="contain" />
       </div>
 
-      <h1>Helen Minin</h1>
+      <h1>Hélen Minin</h1>
 
       <span className="description">
         Desenvolvedora back-end na {''}
