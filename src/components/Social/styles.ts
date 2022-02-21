@@ -31,7 +31,8 @@ export const Item = styled.div`
 
     span {
       margin-left: 16px;
-      color: ${({ theme }) => theme.colors.heading};
+      font-size: 18px;
+      color: ${colors.heading};
     }
 
     &:hover {

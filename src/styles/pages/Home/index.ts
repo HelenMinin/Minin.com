@@ -26,7 +26,7 @@ export const Container = styled.div`
       margin-bottom: 12px;
     }
 
-    span {
+    .description {
       font-size: 18px;
       color: ${colors.text};
       max-width: 400px;

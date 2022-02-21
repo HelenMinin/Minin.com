@@ -13,7 +13,8 @@ export default function Home() {
       </div>
 
       <h1>Helen Minin</h1>
-      <span>
+
+      <span className="description">
         Desenvolvedora back-end na {''}
         <Link href="https://pagar.me" passHref>
           <a target="_blank">
