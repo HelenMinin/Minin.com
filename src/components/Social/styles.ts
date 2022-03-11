@@ -19,6 +19,7 @@ export const Item = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     padding: 30px 80px;
     border-radius: 8px;
     heigth: 100%;
