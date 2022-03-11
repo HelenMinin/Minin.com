@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,23 +8,30 @@ import avatarImg from '../assets/avatar.jpg'
 
 export default function Home() {
   return (
-    <Container>
-      <div className="avatar">
-        <Image alt="Avatar" src={avatarImg} objectFit="contain" />
-      </div>
+    <>
+      <Head>
+        <title>Minin</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-      <h1>Hélen Minin</h1>
+      <Container>
+        <div className="avatar">
+          <Image alt="Avatar" src={avatarImg} objectFit="contain" />
+        </div>
 
-      <span className="description">
-        Desenvolvedora back-end na {''}
-        <Link href="https://pagar.me" passHref>
-          <a target="_blank">
-            <strong>Pagar.me</strong>
-          </a>
-        </Link>
-      </span>
+        <h1>Hélen Minin</h1>
 
-      <Social />
-    </Container>
+        <span className="description">
+          Desenvolvedora back-end na {''}
+          <Link href="https://pagar.me" passHref>
+            <a target="_blank">
+              <strong>Pagar.me</strong>
+            </a>
+          </Link>
+        </span>
+
+        <Social />
+      </Container>
+    </>
   )
 }
